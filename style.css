@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+}
+
+.btn-header {
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    color: black;
+}
+
+.btn-header:hover {
+    color: whitesmoke;
+    background-color: rgb(43, 170, 230);
+    border: 1px solid thistle;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10000;
+}
+
+.backgroud-header {
+    position: relative;
+    background-color: black;
+
+}
+
+.item1,
+.item2 {
+    height: 200px;
+    width: 370px;
+    border-radius: 2rem;
+    margin-left: 35px;
+}
+
+.item1 {
+    margin-bottom: 20px;
+    background-image: url(./img/num-yek.jpg);
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.item2 {
+    background-image: url(./img/item2.jpg);
+    background-size: 390px 200px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    height: 420px;
+    border-radius: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.car-item1 {
+    background-image: url(./img/bag1.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 450px;
+
+}
+
+.car-item2 {
+    background-image: url(./img/9d9c4ac6930bc0c8a23cd49202ceedcf.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 450px;
+}
+
+.car-item3 {
+    background-image: url(./img/e114cbd544b945ceb924be65871bab14.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 450px;
+}
+
+
+
+
+
+
+.card-img-top {
+    height: 300px;
+
+}
+
+.card-text {
+    color: black;
+}
+
+.price {
+    border-radius: 2rem;
+    width: 20px;
+    border: 2px solid rgb(202, 12, 12);
+}
+.text-offer {
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Smooch', cursive;
+}
+
+.btn-offer {
+    border-radius: 2rem;
+    width: 90px;
+    font-weight: 700;
+    border-color: whitesmoke;
+}
+
+.btn-offer:hover {
+    background-color: orange;
+    color: whitesmoke;
+}
+
+.more-products {
+    height: 250px;
+    border-radius: 2rem;
+    background-size: 375px 250px;
+    background-repeat: no-repeat;
+}
+
+.more-product_1 {
+    background-image: url(./img/ytgy.jpg);
+}
+
+.more-product_2 {
+    background-image: url(./img/136c1c0be14bbf827574bc8c657219af.jpg);
+}
+
+.more-product_3 {
+    background-image: url(./img/4bdad2a29ba749bc304bfb088920f197.jpg);
+}
+
+.price-card {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    font-weight: 500;
+}
+
+.card-icon>span {
+    color: black;
+    background: rgba(9, 112, 196, 0.795);
+    margin: 0.1rem;
+    border-radius: 100%;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card-icon>span i {
+    padding: 5px;
+    transition: padding 0.8s ease-in-out;
+}
+
+.info-icon-text {
+    padding: 0 5px 0 0;
+    display: none;
+}
+
+.card-icon>span:hover {
+    border-radius: 20px;
+    direction: ltr !important;
+}
+
+.card-icon>span:hover i {
+    padding-right: 15px;
+}
+
+.card-icon>span:hover .info-icon-text {
+    display: block !important;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: #BBB 0 0 2px, #888 0 15px 15px -12px;
+    border-color: rgb(73, 62, 219);
+}
+
+/* footer */
+.text-logo{
+    font-family: 'Smooch', cursive;
+}
+.back-to-up{
+    text-decoration: none;
+}
+.modal{
+    z-index: 400000;
+}
